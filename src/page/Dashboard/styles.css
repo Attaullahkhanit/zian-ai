@@ -1,0 +1,217 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container-gallery {
+    background-image: url('/src/Assets/backgroundimage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: white;
+    padding-top: 30px;
+  }
+  .left-side-bar {
+    padding-top: 60px;
+    /* height: 100vh; */
+    overflow-y: hidden;
+    padding-right: 30px;
+
+  }
+  .logo {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .icon {
+    padding-right: 8px;
+  }
+  .menu-item-breakfast {
+    display: flex;
+    align-items: start;
+  }
+  .divider {
+    width: 100%;
+    color: white;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right,rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
+  }
+  .menu-list-item:hover{
+    background-color: white;
+    color: rgba(233, 69, 208, 1);
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 0px 8px 16px rgba(233, 69, 208, 1);
+  }
+  .List-Item:hover{
+        background-color: white;
+        color: rgba(233, 69, 208, 1);
+        border-radius: 0px 20px 20px 0px;
+        box-shadow: 0px 8px 16px rgba(233, 69, 208, 1);
+  }
+  .icon:hover {
+    color: rgba(233, 69, 208, 1);
+  }
+  .menu {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .bottom-menu-item {
+    margin-top: auto;
+  }
+  .menu-item-credit {
+    width: 100%;
+  }
+  .menu-list-item {
+    width: 100%;
+    cursor: pointer;
+  }
+  .middle {
+    margin-top:10px;
+    float: left;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+  }
+  .bar-4 {
+    width: 43.75%;
+    height: 8px; 
+    background-color:rgba(233, 69, 208, 1);
+    border-radius: 5px;
+}
+  .credit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+    padding-top: 3px;
+    width: 100%;
+  }
+  .menu-item-manage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .name {
+    cursor: pointer;
+  }
+  .top-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .right-top-bar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+  .menu-item-credit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .search-input {
+    border-radius: 10px;
+    border: none;
+    background-color: dark;
+    color: white;
+  }
+  .search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid none;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .search-button {
+    background: #3E2C5F;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    padding: 6px 2px 2px 10px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  
+  input {
+    border: none;
+    padding: 10px;
+    flex: 1;
+    background-color: #3D2C5E;
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    background: linear-gradient(to right,#3E2C5F, #26193d);
+  }
+  input:focus{
+    outline: none;
+    border-color: #007bff;
+  }
+  .notification-button {
+    background: linear-gradient(to right,#3E2C5F, #26193d);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 13px;
+    cursor: pointer;
+    margin:0px 4px 0px 4px;
+    transition: background-color 0.3s ease;
+    color: white;
+  }
+  .notification-container .notification-button {
+    background: linear-gradient(to right,#3E2C5F, #26193d);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 13px;
+    cursor: pointer;
+    margin:0px 4px 0px 4px;
+    transition: background-color 0.3s ease;
+    color: white;
+  }
+  .centered-container {
+    text-align: center;
+  }
+  .robotic-content {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to right,#3E2C5F, #26193d);
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+
+  }
+  
+  .robotic-icon {
+    color: white;
+    margin-right: 4px;
+  }
+  
+  .robotic-name {
+    color: white;
+  }
+  .right-side-section {
+    /* padding: 20px; */
+    padding: 0px 20px 20px 0px;
+  }
+  .main-container {
+     width: 100%;
+     margin-right: 20px;
+     margin-top: 30px;
+     height: 100vh;
+     background: linear-gradient(to bottom, #61399A 0%, #1E162E 100%);
+     border-radius: 10px;
+     border: 1px solid rgba(233, 69, 208, 1);
+  }
