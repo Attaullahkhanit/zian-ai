@@ -51,6 +51,7 @@
     border: none;
     margin-bottom: 5px;
     margin-right: 5px;
+    cursor: pointer;
   }
   .arrow-left {
     padding-right: 5px;
