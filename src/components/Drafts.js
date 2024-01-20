@@ -59,13 +59,13 @@ function Drafts() {
           >
             Giveaways
           </div>
-          <button class="arrow-button right-arrow">&gt;</button>
           <button
-            className="add-button"
+            class="arrow-button right-arrow"
             onClick={() => handleArrowClick("right")}
           >
-            Add New
+            &gt;
           </button>
+          <button className="add-button">Add New</button>
         </div>
 
         <div className="content">
